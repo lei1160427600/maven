@@ -9,6 +9,6 @@ public class Tests {
 	public void testHello(){
 		Hello hello = new Hello();
 		String results = hello.sayHello("maven");
-		assertEquals("Hello maven", results);
+		assertEquals("Hello maven £¡", results);
 	}
 }
